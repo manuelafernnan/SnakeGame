@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|c:\\users\\manue\\onedrive\\\u00E1rea de trabalho\\snake\\snake\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|c:\\users\\manue\\onedrive\\\u00E1rea de trabalho\\snake\\snake\\snake.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\snake.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|c:\\users\\manue\\onedrive\\\u00E1rea de trabalho\\snake\\snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|c:\\users\\manue\\onedrive\\\u00E1rea de trabalho\\snake\\snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\snake\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{96004659-102B-48B2-9EF6-E9EFD3B5EFE6}|Snake\\Snake.csproj|solutionrelative:snake\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,18 +31,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Snake",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Snake.csproj",
-              "RelativeDocumentMoniker": "Snake\\Snake.csproj",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Snake.csproj",
-              "RelativeToolTip": "Snake\\Snake.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-25T03:41:35.556Z",
-              "EditorCaption": ""
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Form1.cs",
+              "RelativeDocumentMoniker": "Snake\\Form1.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Snake\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:37:18.218Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Snake\\Properties\\Resources.resx",
@@ -64,35 +60,23 @@
               "RelativeDocumentMoniker": "Snake\\Game.cs",
               "ToolTip": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Game.cs",
               "RelativeToolTip": "Snake\\Game.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAIwE8AAAAaAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAYwIkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T23:21:35.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Form1.cs",
               "RelativeDocumentMoniker": "Snake\\Form1.cs",
               "ToolTip": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Form1.cs",
               "RelativeToolTip": "Snake\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAawA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T22:52:22.275Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Form1.cs",
-              "RelativeDocumentMoniker": "Snake\\Form1.cs",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\\u00C1rea de Trabalho\\Snake\\Snake\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Snake\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:47:35.895Z",
-              "EditorCaption": " [Projeto]"
             }
           ]
         }

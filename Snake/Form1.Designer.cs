@@ -31,7 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             PnTela = new Panel();
-            LbPontos = new Label();
+            LbPontuacao = new Label();
             menuStrip1 = new MenuStrip();
             Menu = new ToolStripMenuItem();
             iniciarJogoToolStripMenuItem = new ToolStripMenuItem();
@@ -48,18 +48,24 @@
             PnTela.Size = new Size(428, 428);
             PnTela.TabIndex = 0;
             // 
-            // LbPontos
+            // LbPontuacao
             // 
-            LbPontos.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LbPontos.Location = new Point(7, 21);
-            LbPontos.Name = "LbPontos";
-            LbPontos.Size = new Size(428, 38);
-            LbPontos.TabIndex = 1;
-            LbPontos.Text = "PONTOS: 0";
-            LbPontos.TextAlign = ContentAlignment.MiddleRight;
+            LbPontuacao.BackColor = SystemColors.ActiveCaptionText;
+            LbPontuacao.BorderStyle = BorderStyle.Fixed3D;
+            LbPontuacao.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LbPontuacao.ForeColor = SystemColors.ButtonFace;
+            LbPontuacao.Location = new Point(7, 24);
+            LbPontuacao.Name = "LbPontuacao";
+            LbPontuacao.Size = new Size(428, 38);
+            LbPontuacao.TabIndex = 1;
+            LbPontuacao.Text = "PONTOS: 0";
+            LbPontuacao.TextAlign = ContentAlignment.MiddleRight;
+            LbPontuacao.Click += LbPontuacao_Click;
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = SystemColors.ActiveCaptionText;
+            menuStrip1.GripStyle = ToolStripGripStyle.Visible;
             menuStrip1.Items.AddRange(new ToolStripItem[] { Menu });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -69,31 +75,46 @@
             // 
             // Menu
             // 
+            Menu.BackColor = Color.Black;
             Menu.DropDownItems.AddRange(new ToolStripItem[] { iniciarJogoToolStripMenuItem, sairToolStripMenuItem });
+            Menu.ForeColor = SystemColors.ButtonFace;
             Menu.Name = "Menu";
             Menu.Size = new Size(50, 20);
             Menu.Text = "Menu";
+            Menu.Click += Menu_Click;
             // 
             // iniciarJogoToolStripMenuItem
             // 
+            iniciarJogoToolStripMenuItem.BackColor = SystemColors.WindowFrame;
+            iniciarJogoToolStripMenuItem.ForeColor = SystemColors.ButtonFace;
             iniciarJogoToolStripMenuItem.Name = "iniciarJogoToolStripMenuItem";
-            iniciarJogoToolStripMenuItem.Size = new Size(180, 22);
+            iniciarJogoToolStripMenuItem.Size = new Size(133, 22);
             iniciarJogoToolStripMenuItem.Text = "Iniciar jogo";
+            iniciarJogoToolStripMenuItem.Click += iniciarJogoToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem
             // 
+            sairToolStripMenuItem.BackColor = SystemColors.WindowFrame;
+            sairToolStripMenuItem.ForeColor = SystemColors.ButtonFace;
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Size = new Size(133, 22);
             sairToolStripMenuItem.Text = "Sair";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
+            // 
+            // Frame
+            // 
+            Frame.Tick += Frame_Tick;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(441, 498);
-            Controls.Add(LbPontos);
+            Controls.Add(LbPontuacao);
             Controls.Add(PnTela);
             Controls.Add(menuStrip1);
+            ForeColor = SystemColors.ButtonFace;
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
@@ -103,6 +124,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Snake II";
             Load += Form1_Load;
+            KeyDown += Clicado;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -112,7 +134,7 @@
         #endregion
 
         private Panel PnTela;
-        private Label LbPontos;
+        private Label LbPontuacao;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem Menu;
         private ToolStripMenuItem iniciarJogoToolStripMenuItem;
